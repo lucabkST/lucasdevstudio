@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LucasDevStudio | Portfólio Profissional</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Roboto', sans-serif; line-height: 1.6; background: #f9f9f9; color: #333; }
+    header { background: #1e1e1e; color: #fff; padding: 20px; position: sticky; top: 0; z-index: 1000; }
+    header h1 { font-size: 24px; }
+    nav { margin-top: 10px; }
+    nav a { color: #fff; margin-right: 15px; text-decoration: none; font-weight: 500; }
+
+    .banner { background: url('https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=1400&q=80') center/cover; color: #fff; text-align: center; padding: 100px 20px; }
+    .banner h2 { font-size: 42px; margin-bottom: 10px; }
+    .banner p { font-size: 18px; margin-bottom: 20px; }
+    .banner a { padding: 10px 20px; background: #ff9900; color: #fff; text-decoration: none; border-radius: 5px; }
+
+    section { padding: 60px 20px; max-width: 1100px; margin: auto; }
+    .about, .services, .projects, .testimonials, .contact { margin-bottom: 40px; }
+
+    h3 { margin-bottom: 20px; font-size: 26px; color: #111; }
+    .services ul, .projects ul { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; list-style: none; }
+    .services li, .projects li { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+
+    footer { background: #1e1e1e; color: #fff; text-align: center; padding: 30px 20px; }
+    footer p { margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lucas Dev Studio </h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <div class="banner">
+    <h2>Transforme sua presença digital</h2>
+    <p>Sites profissionais, modernos e rápidos</p>
+    <a href="#contato">Solicitar Orçamento</a>
+  </div>
+
+  <section id="sobre" class="about">
+    <h3>Sobre</h3>
+    <p>Sou desenvolvedor web iniciante e ofereço soluções acessíveis e personalizadas para quem quer destacar seu negócio online. Atendo comércios locais, freelancers e pequenos empreendedores.</p>
+  </section>
+
+  <section id="servicos" class="services">
+    <h3>Serviços</h3>
+    <ul>
+      <li><strong>Site para barbearias</strong><br> Página com horários, fotos e botão de WhatsApp.</li>
+      <li><strong>Cardápio digital</strong><br> Ideal para restaurantes e pizzarias.</li>
+      <li><strong>Portfólio profissional</strong><br> Para freelancers e autônomos apresentarem seu trabalho.</li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h3>Projetos</h3>
+    <ul>
+      <li><strong>Barbearia Top Style</strong><br> Layout escuro, moderno e responsivo.</li>
+      <li><strong>Pizzaria Delícia</strong><br> Cardápio com fotos e integração ao WhatsApp.</li>
+      <li><strong>Portfolio de Fotógrafo</strong><br> Galeria de imagens e formulário de contato.</li>
+    </ul>
+  </section>
+
+  <section id="contato" class="contact">
+    <h3>Contato</h3>
+    <p>Entre em contato pelo WhatsApp clicando no botão abaixo e solicite seu site!</p>
+    <p><a href="https://wa.me/+543412471353" style="background:#25d366; color:#fff; padding:10px 20px; border-radius:5px; display:inline-block; text-decoration:none;">Falar no WhatsApp</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Criado por Lucas</p>
+    <p>Site modelo para venda ou portfólio</p>
+  </footer>
+</body>
+</html>
